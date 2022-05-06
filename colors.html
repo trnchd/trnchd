@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="p:domain_verify" content="e60f879549316c75b9e65f82a63bad69"/>
+    
+	<title>Colors | trnchd</title>
+    <link rel="shortcut icon" href="{Favicon}" />
+    <link rel="alternate" type="application/rss+xml" title="{Title} RSS" href="{RSS}"/>
+    <meta name='text:Disqus Shortname' content='' />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32661075-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-32661075-2');
+</script>
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" type="text/javascript"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- Lightbox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+
+<style>
+
+	body {
+		background: #f2f2f2;
+        color:#000;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: left;
+    }
+
+	a, a:active, a:visited {
+        color: #226aa2;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #113652;
+        text-decoration: none;
+    }
+
+/* Navigation */
+
+    .navbar {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        border-bottom: 1px solid #000;
+    }
+    
+    .navbar-custom .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navbar-custom .navbar-nav .nav-link,
+    .navbar-custom .dropdown-item {
+        padding: 0 15px;
+        color: #2c7bbe;
+        font-weight: 300;
+    }
+    
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link,
+    .navbar-custom .dropdown-item:hover,
+    .navbar-custom .dropdown-item:focus {
+        color: #07355b;
+        font-weight: 300;
+    }
+    
+    .navbar-custom .dropdown-item.active {
+        color: #07355b;
+        background-color: transparent;
+    }
+    
+/* Content */
+
+    .heading {
+        font-size: calc(1rem + 3.5vmin);
+    }
+
+    .subheading {
+        font-size: calc(0.5rem + 1vmin);
+        width: 70%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .img-fluid {
+        border: 4px solid #fff;
+    }
+
+    .yarn-info {
+        margin-bottom: 25px;
+        padding-bottom: 1px;
+        background-color: #fff;
+    }
+    
+    .title {
+        padding-top: 4px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+/* Footer */
+
+.site-footer{
+  margin-top: auto;
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.site-footer hr{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+.site-footer hr.small{
+  margin:20px 0
+}
+
+.site-footer h6{
+  color:#fff;
+  font-size:16px;
+  text-transform:lowercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a{
+  color:#737373;
+}
+
+.site-footer a:hover{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links li{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+ iframe {display:none ! important;}
+
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+  <a class="navbar-brand" href="https://trnchd.com"><img height="25" src="https://i.imgur.com/W9JW1WA.png" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="material-icons">expand_more</span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://shop.trnchd.com">shop</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">yarn</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item active" href="/colors">colors</a>
+          <a class="dropdown-item" href="/bases">bases info</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">weaving</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/circulate">circulate</a>
+          <a class="dropdown-item" href="/scarves">scarves</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/made">made</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://trnchd.com/#blog">blog</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav navbar-social">
+	   <li class="nav-item pr-3"><a class="nav-social" href="https://instagram.com/trnchd"><img height="25" src="https://i.imgur.com/bmL0Lm3.png" alt="instagram"></a></li>
+	   <li class="nav-item pr-3"><a class="nav-social" href="https://twitter.com/trnchd"><img height="25" src="https://i.imgur.com/QmEmRm2.png" alt="twitter"/></a></li>
+	   <li class="nav-item pr-3"><a class="nav-social" href="https://facebook.com/trnchd"><img height="25" src="https://i.imgur.com/kgIyCb8.png" alt="facebook" /></a></li>
+	</ul>
+  </div>
+</nav>
+
+<div class="fluid-container mt-5 px-5">
+    <h1 class="heading text-center">Colors</h1>
+    <p class="subheading mx-auto">This is hand dyed yarn, each skein is unique and there's no dye lots. It's highly recommended to alternate skeins to blend skeins.<br>Colors may vary based on display settings.</p>
+    <p class="subheading mx-auto"><a href="https://www.etsy.com/shop/trnchd/?section_id=28301972">Shop available colors</a></p>
+    <div class="row">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/6YMOWY8.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Love Letters">
+                <img class="img-fluid" src="https://i.imgur.com/6YMOWY8h.png" alt="Love Letters">
+            </a>   
+            <div class="yarn-info"><p class="title">Love Letters</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/jFd9FHy.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Magnolia Bloom">
+                <img class="img-fluid" src="https://i.imgur.com/jFd9FHyh.jpg" alt="Magnolia Bloom">
+            </a>   
+            <div class="yarn-info"><p class="title">Magnolia Bloom</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/EKZeqfE.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="This Modern Love">
+                <img class="img-fluid" src="https://i.imgur.com/EKZeqfEh.jpg" alt="This Modern Love">
+            </a>   
+            <div class="yarn-info"><p class="title">This Modern Love</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/rR7R9Vv.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Rosé">
+                <img class="img-fluid" src="https://i.imgur.com/rR7R9Vvh.png" alt="Rosé">
+            </a>
+            <div class="yarn-info"><p class="title">Rosé</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/R3CsysS.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Pink Gris">
+                <img class="img-fluid" src="https://i.imgur.com/R3CsysSh.jpg" alt="Pink Gris">
+            </a>
+            <div class="yarn-info"><p class="title">Pink Gris</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/VDVtM7r.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Bittersweet Faith">
+                <img class="img-fluid" src="https://i.imgur.com/VDVtM7rh.jpg" alt="Bittersweet Faith">
+            </a>   
+            <div class="yarn-info"><p class="title">Bittersweet Faith</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/RPSgJgG.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Stars and Boulevards">
+                <img class="img-fluid" src="https://i.imgur.com/RPSgJgGh.jpg" alt="Stars and Boulevards">
+            </a>
+            <div class="yarn-info"><p class="title">Stars and Boulevards</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/bQhlVGP.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Aged Merlot">
+                <img class="img-fluid" src="https://i.imgur.com/bQhlVGPh.png" alt="Aged Merlot">
+            </a>
+            <div class="yarn-info"><p class="title">Aged Merlot</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/mPXDqWl.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Cabernet">
+                <img class="img-fluid" src="https://i.imgur.com/mPXDqWlh.jpg" alt="Cabernet">
+            </a>
+            <div class="yarn-info"><p class="title">Cabernet</p></div>
+        </div>
+        <div class="col-xl col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/svAqItK.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Spiked Rosé">
+                <img class="img-fluid" src="https://i.imgur.com/svAqItKh.jpg" alt="Spiked Rosé">
+            </a>
+            <div class="yarn-info"><p class="title">Spiked Rosé</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/uJbVLcM.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Sunrise">
+                <img class="img-fluid" src="https://i.imgur.com/uJbVLcMh.jpg" alt="Sunrise">
+            </a>
+            <div class="yarn-info"><p class="title">Sunrise</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/2MR1WsS.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Sunset">
+                <img class="img-fluid" src="https://i.imgur.com/2MR1WsSh.jpg" alt="Sunset">
+            </a>
+            <div class="yarn-info"><p class="title">Sunset</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/Yvva6hG.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Flame">
+                <img class="img-fluid" src="https://i.imgur.com/Yvva6hGh.png" alt="Flame">
+            </a>
+            <div class="yarn-info"><p class="title">Flame</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/PIRR7og.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="October Skies">
+                <img class="img-fluid" src="https://i.imgur.com/PIRR7ogh.png" alt="October Skies">
+            </a>
+            <div class="yarn-info"><p class="title">October Skies</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/HbUM5VZ.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Why Can't We Be Friends?">
+                <img class="img-fluid" src="https://i.imgur.com/HbUM5VZh.png" alt="Why Can't We Be Friends?">
+            </a>
+            <div class="yarn-info"><p class="title">Why Can't We Be Friends?</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/pp4cj0I.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Bourbon">
+                <img class="img-fluid" src="https://i.imgur.com/pp4cj0Ih.jpg" alt="Bourbon">
+            </a>
+            <div class="yarn-info"><p class="title">Bourbon</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/rczrLU7.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Flowers in Your Hair">
+                <img class="img-fluid" src="https://i.imgur.com/rczrLU7h.jpg" alt="Flowers in Your Hair">
+            </a>
+            <div class="yarn-info"><p class="title">Flowers in Your Hair</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/AW5lbvD.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Breathless">
+                <img class="img-fluid" src="https://i.imgur.com/AW5lbvDh.jpg" alt="Breathless">
+            </a>
+            <div class="yarn-info"><p class="title">Breathless</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/Vnsu3AS.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Emerald Meadow">
+                <img class="img-fluid" src="https://i.imgur.com/Vnsu3ASh.jpg" alt="Emerald Meadow">
+            </a>
+            <div class="yarn-info"><p class="title">Emerald Meadow</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/8EvncT6.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Evergreen">
+                <img class="img-fluid" src="https://i.imgur.com/8EvncT6h.jpg" alt="Evergreen">
+            </a>
+            <div class="yarn-info"><p class="title">Evergreen</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/1krfj2v.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="ODLR">
+                <img class="img-fluid" src="https://i.imgur.com/1krfj2vh.png" alt="ODLR">
+            </a>
+            <div class="yarn-info"><p class="title">ODLR</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/3rls1FI.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Edge of the Ocean">
+                <img class="img-fluid" src="https://i.imgur.com/3rls1FIh.png" alt="Edge of the Ocean">
+            </a>
+            <div class="yarn-info"><p class="title">Edge of the Ocean</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/xuRfali.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Midnight Rain">
+                <img class="img-fluid" src="https://i.imgur.com/xuRfalih.jpg" alt="Midnight Rain">
+            </a>
+            <div class="yarn-info"><p class="title">Midnight Rain</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/6ybTy3V.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Nighthallow">
+                <img class="img-fluid" src="https://i.imgur.com/6ybTy3Vh.jpg" alt="Nighthallow">
+            </a>
+            <div class="yarn-info"><p class="title">Nighthallow</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/NOIoh1o.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Raw Ocean Wash">
+                <img class="img-fluid" src="https://i.imgur.com/NOIoh1oh.jpg" alt="Raw Ocean Wash">
+            </a>
+            <div class="yarn-info"><p class="title">Raw Ocean Wash</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/aZIz39d.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Maritime">
+                <img class="img-fluid" src="https://i.imgur.com/aZIz39dh.jpg" alt="Maritime">
+            </a>
+            <div class="yarn-info"><p class="title">Maritime</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/EDFynir.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Deep Blue">
+                <img class="img-fluid" src="https://i.imgur.com/EDFynirh.jpg" alt="Deep Blue">
+            </a>
+            <div class="yarn-info"><p class="title">Deep Blue/p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/IAaGSMJ.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Blueberry Cobbler">
+                <img class="img-fluid" src="https://i.imgur.com/IAaGSMJh.jpg" alt="Blueberry Cobbler">
+            </a>
+            <div class="yarn-info"><p class="title">Blueberry Cobbler</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/3O63yt6.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Lavender Dusk">
+                <img class="img-fluid" src="https://i.imgur.com/3O63yt6h.jpg" alt="Lavender Dusk">
+            </a>
+            <div class="yarn-info"><p class="title">Lavender Dusk</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/SsRpEpL.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="This is My Jam">
+                <img class="img-fluid" src="https://i.imgur.com/SsRpEpLh.png" alt="This is My Jam">
+            </a>
+            <div class="yarn-info"><p class="title">This is My Jam</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/NMiW2jk.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Vintage Delicates">
+                <img class="img-fluid" src="https://i.imgur.com/NMiW2jkh.jpg" alt="Vintage Delicates">
+            </a>
+            <div class="yarn-info"><p class="title">Vintage Delicates</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/qSU4L3k.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Lost Horizons">
+                <img class="img-fluid" src="https://i.imgur.com/qSU4L3kh.jpg" alt="Lost Horizons">
+            </a>
+            <div class="yarn-info"><p class="title">Lost Horizons</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/X9YSUsM.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Keep Breathing">
+                <img class="img-fluid" src="https://i.imgur.com/X9YSUsMh.jpg" alt="Keep Breathing">
+            </a>
+            <div class="yarn-info"><p class="title">Keep Breathing</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/emS5MXw.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Put Your Records On">
+                <img class="img-fluid" src="https://i.imgur.com/emS5MXwh.jpg" alt="Put Your Records On">
+            </a>
+            <div class="yarn-info"><p class="title">Put Your Records On</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/OLnNEzO.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Pine Bark">
+                <img class="img-fluid" src="https://i.imgur.com/OLnNEzOh.jpg" alt="Pine Bark">
+            </a>
+            <div class="yarn-info"><p class="title">Pine Bark</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/lGLMZ01.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Sticky Toffee Pudding">
+                <img class="img-fluid" src="https://i.imgur.com/lGLMZ01h.jpg" alt="Sticky Toffee Pudding">
+            </a>
+            <div class="yarn-info"><p class="title">Sticky Toffee Pudding</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/wUpDylK.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Gust of Spring">
+                <img class="img-fluid" src="https://i.imgur.com/wUpDylKh.jpg" alt="Gust of Spring">
+            </a>
+            <div class="yarn-info"><p class="title">Gust of Spring</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/sgUKx7B.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Overcast">
+                <img class="img-fluid" src="https://i.imgur.com/sgUKx7Bh.jpg" alt="Overcast">
+            </a>
+            <div class="yarn-info"><p class="title">Overcast</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/5yyiLm1.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Whirlpool">
+                <img class="img-fluid" src="https://i.imgur.com/5yyiLm1h.jpg" alt="Whirlpool">
+            </a>
+            <div class="yarn-info"><p class="title">Whirlpool</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/HVdjGxn.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Greymoor">
+                <img class="img-fluid" src="https://i.imgur.com/HVdjGxnh.jpg" alt="Greymoor">
+            </a>
+            <div class="yarn-info"><p class="title">Greymoor</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/S7JZv1d.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Grey Sky Eyes">
+                <img class="img-fluid" src="https://i.imgur.com/S7JZv1dh.jpg" alt="Grey Sky Eyes">
+            </a>
+            <div class="yarn-info"><p class="title">Grey Sky Eyes</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/Sr8qyMu.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="LBD">
+                <img class="img-fluid" src="https://i.imgur.com/Sr8qyMuh.png" alt="LBD">
+            </a>
+            <div class="yarn-info"><p class="title">LBD</p></div>
+        </div>
+    </div>
+    <br>
+    <h3 class="text-center pt-5">Archived Colors</h3>
+    <p class="subheading mx-auto">These colors will no longer be readily available. They are available for dye-to-order only.</p>
+    </p>
+    <div class="row pb-5">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/bfM3iCV.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Plumeria Parade">
+                <img class="img-fluid" src="https://i.imgur.com/bfM3iCVh.png" alt="Plumeria Parade">
+            </a>
+            <div class="yarn-info"><p class="title">Plumeria Parade</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/cU3MvBK.jpg" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Raspberry Chocolate Chunk">
+                <img class="img-fluid" src="https://i.imgur.com/cU3MvBKh.jpg" alt="Raspberry Chocolate Chunk">
+            </a>
+            <div class="yarn-info"><p class="title">Raspberry Chocolate Chunk</p></div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://i.imgur.com/hECpV6l.png" data-toggle="lightbox"data-gallery="example-gallery" data-footer="Sea Spray">
+                <img class="img-fluid" src="https://i.imgur.com/hECpV6lh.png" alt="Sea Spray">
+            </a>
+            <div class="yarn-info"><p class="title">Sea Spray</p></div>
+        </div>
+    </div>
+</div>
+
+<footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Pronounced: "trenched," a personal obsession with trench coats. A girl sharing her creative side with the world. Started in 2012 as a handmade handbags, has evolved and grown into a indie dyed yarn and hand weaving company.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="/colors">Yarn Colors</a></li>
+              <li><a href="/bases">Yarn Bases</a></li>
+              <li><a href="/circulate">Circulate Collection</a></li>
+              <li><a href="/scarves">Handwoven Scarves</a></li>
+              <li><a href="/made">Personal Projects</a></li>
+              <li><a href="https://trnchd.com/#blog">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Contact</h6>
+            <ul class="footer-links">
+              <li><a href="mailto:contact@trnchd.com">Email</a></li>
+              <li><a href="https://instagram.com/trnchd">Instagram</a></li>
+              <li><a href="https://twitter.com/trnchd">Twitter</a></li>
+              <li><a href="https://facebook.com/trnchd">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+         <a href="#">trnchd</a>.
+            </p>
+          </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+
+<!-- Lightbox -->
+<script>
+    $(document).on('click', '[data-toggle="lightbox"]:not([data-gallery="navigateTo"]):not([data-gallery="example-gallery-11"])', function(event) {
+        event.preventDefault();
+                return $(this).ekkoLightbox({
+                    onShown: function() {
+                        if (window.console) {
+                            return console.log('Checking our the events huh?');
+                        }
+                 },
+                 onNavigate: function(direction, itemIndex) {
+                    if (window.console) {
+                        return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                     }
+                  }
+        });
+    });
+</script>
+
+</body>
+
+</html>

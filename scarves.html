@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="p:domain_verify" content="e60f879549316c75b9e65f82a63bad69"/>
+    
+	<title>Scarves | trnchd</title>
+    <link rel="shortcut icon" href="{Favicon}" />
+    <link rel="alternate" type="application/rss+xml" title="{Title} RSS" href="{RSS}"/>
+    <meta name='text:Disqus Shortname' content='' />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32661075-2', 'auto');
+  ga('send', 'pageview');
+	</script>
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" type="text/javascript"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- Swiper -->
+<script src="https://unpkg.com/swiper/js/swiper.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+<style>
+
+	body {
+		background: #f2f2f2;
+        color:#000;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: left;
+    }
+
+	a, a:active, a:visited {
+        color: #226aa2;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #113652;
+        text-decoration: none;
+    }
+
+/* Navigation */
+
+    .navbar {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        border-bottom: 1px solid #000;
+    }
+    
+    .navbar-custom .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navbar-custom .navbar-nav .nav-link,
+    .navbar-custom .dropdown-item {
+        padding: 0 15px;
+        color: #2c7bbe;
+        font-weight: 300;
+    }
+    
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link,
+    .navbar-custom .dropdown-item:hover,
+    .navbar-custom .dropdown-item:focus {
+        color: #07355b;
+        font-weight: 300;
+    }
+    
+    .navbar-custom .dropdown-item.active {
+        color: #07355b;
+        background-color: transparent;
+    }
+    
+/* Content */
+
+    .heading {
+        font-size: calc(1rem + 3.5vmin);
+    }
+
+    .subheading {
+        font-size: calc(0.5rem + 1vmin);
+        width: 70%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .img-fluid {
+        border: 4px solid #fff;
+    }
+
+    .info {
+        margin-bottom: 25px;
+        padding: 10px 0;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .title {
+        padding-top: 4px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+ iframe {display:none ! important;}
+
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+  <a class="navbar-brand" href="https://trnchd.com"><img height="25" src="https://i.imgur.com/W9JW1WA.png" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="material-icons">expand_more</span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://shop.trnchd.com">shop</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">yarn</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item active" href="/colors">colors</a>
+          <a class="dropdown-item" href="/bases">bases info</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">weaving</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/circulate">circulate</a>
+          <a class="dropdown-item" href="/scarves">scarves</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/made">made</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog">blog</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav navbar-social">
+	   <li class="nav-item pr-3"><a class="nav-social" href="https://instagram.com/trnchd"><img height="25" src="https://i.imgur.com/bmL0Lm3.png" alt="instagram"></a></li>
+	   <li class="nav-item pr-3"><a class="nav-social" href="https://twitter.com/trnchd"><img height="25" src="https://i.imgur.com/QmEmRm2.png" alt="twitter"/></a></li>
+	   <li class="nav-item pr-3"><a class="nav-social" href="https://facebook.com/trnchd"><img height="25" src="https://i.imgur.com/kgIyCb8.png" alt="facebook" /></a></li>
+	</ul>
+  </div>
+</nav>
+
+<div class="fluid-container mt-5 px-5">
+    <h1 class="heading text-center">Scarves</h1>
+    <p class="subheading mx-auto">Hand woven scarves. Made with the finest luxury fibers and hand dyed yarns from indie dyers. Each one tells their own story and truly one-of-a-kind.<br><br>Note: If you're looking to request a specific colorway, make note that some dyers create limited edition colorways that might be difficult to track down. I will do my best to find a suitable alternative</p>
+    <div class="row">
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/742807984/"><img src="https://i.imgur.com/i3ExAU2.jpg" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/742807984/">Moody</a><br><br>75 merino/15 silk/10 cashmere<br>x<br>70 bluefaced leicester/20 silk/10 cashmere</p>
+    	    </div>
+        <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/740457112/"><img src="https://i.imgur.com/4L1bRFn.jpg" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/740457112/">Favorite Pair</a><br><br>70 bluefaced leicester/20 silk/10 cashmere<br>x<br>70 superwash merino/20 cashmere/10 nylon</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/746889693/"><img src="https://i.imgur.com/OoAjW1E.jpg" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/746889693/">Fadebow</a><br><br>75 superwash merino/25 nylon<br>x<br>50 cashmere/50 merino</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/733027084/"><img src="https://i.imgur.com/Qp6Py5N.jpg" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/733027084/">Frosted Petals</a><br><br>75 bluefaced leicester/25 masham</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/733027718/"><img src="https://i.imgur.com/DyZRqrx.jpg" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/733027718/">Loyalty</a><br><br>75 superwash merino/15 silk/10 cashmere<br>x<br>50 merino/50 silk<br>x<br>80 superwash merino/20 nylon</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/667577156/"><img src="https://i.imgur.com/JrpeP7B.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/667577156/">Quiet Moments</a><br><br>50 superwash merino/50 silk<br>x<br>80 superwash merino/20 silk</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/683328183/"><img src="https://i.imgur.com/Ka8nra6.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/683328183/">Lavender Sunset</a><br><br>75 superwash merino/25 nylon</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/658174627/"><img src="https://i.imgur.com/HJyP6sJ.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/658174627/">Wanderer</a><br><br>75 superwash merino/25 nylon<br>x<br>100 merino</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/644342256/"><img src="https://i.imgur.com/OeECc33.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/644342256/">Good v Evil</a><br><br>80 superwash merino/10 cashmere/10 nylon<br>x<br>100 cashmere</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/644344408/"><img src="https://i.imgur.com/YP44wbw.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/644344408/">Camel</a><br><br>100 superwash merino<br>x<br>100 alpaca</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/591768633/"><img src="https://i.imgur.com/7glRgRv.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/591768633/">Embers</a><br><br>75 superwash merino/25 nylon<br>x<br>80 superwash merino/20 mohair</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/566133464/"><img src="https://i.imgur.com/x7gBVPQ.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/566133464/">Garden Party</a><br><br>70 superwash merino/20 cashmere/10 nylon</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/57992736/5"><img src="https://i.imgur.com/f5DyRq2.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/579927365/">Winter's Rest</a><br><br>100 superwash merino<br>x<br>75 superwash merino/15 silk/10 cashmere</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/573504307/"><img src="https://i.imgur.com/WLPm5Sj.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/573504307">Blizzard</a><br><br>75 superwash merino/15 nylon<br>x<br>70 superwash merino/30 silk</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/573508775/"><img src="https://i.imgur.com/0KcyYS6.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/573508775/">Hot Chocolate</a><br><br>100 superwash merino</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/559705852/"><img src="https://i.imgur.com/Rpcfehy.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/559705852/">Enchanted Forest</a><br><br>80 superwash merino/10 cashmere/10 gold nylon</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/565984253/"><img src="https://i.imgur.com/IXUiprh.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/565984253/">Muddy Waters</a><br><br>75 superwash merino/15 silk/10 cashmere</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	        <a href="https://www.etsy.com/listing/552191154/"><img src="https://i.imgur.com/jvyauki.png" class="img-fluid"></a>
+    	        <p class="info"><a href="https://www.etsy.com/listing/552191154/">Grey Skies</a><br><br>75 superwash merino/15 silk/10 cashmere<br>x<br>75 superwash merino/25 nylon</p>
+    	    </div>
+    	    <div class="col-lg-4 col-sm-6 col-xs-12">
+    	      <a href="https://www.etsy.com/listing/565990769/"><img src="https://i.imgur.com/8BZ95IW.png" class="img-fluid"></a>
+    	     <p class="info"><a href="https://www.etsy.com/listing/565990769/">Autumnal Leaves</a><br><br>75 superwash merino/25 nylon</p>
+    	    </div>
+          	<div class="col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://www.etsy.com/listing/545825230/"><img src="https://i.imgur.com/9jrwNCo.png" class="img-fluid"></a>
+            <p class="info"><a href="https://www.etsy.com/listing/545825230/">Love Letters</a><br><br>80 superwash merino/20 kid mohair</p>
+          	</div>
+          	<div class="col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://www.etsy.com/listing/545826350/"><img src="https://i.imgur.com/GoEuiNa.png" class="img-fluid"></a>
+            <p class="info"><a href="https://www.etsy.com/listing/545826350/">Rosewood</a><br><br>100 superwash bluefaced leicester<br>x<br>100 superwash merino</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://www.etsy.com/listing/545749098/"><img src="https://i.imgur.com/TC3Eu7F.png" class="img-fluid"></a>
+            <p class="info"><a href="https://www.etsy.com/listing/545749098/">Black Hole</a><br><br>75 superwash merino/15 silk/10 cashmere</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <a href="https://www.etsy.com/listing/559617893/"><img src="https://i.imgur.com/IP3UOwL.png" class="img-fluid"></a>
+            <p class="info"><a href="https://www.etsy.com/listing/559617893/">Bluegrass Fields</a><br><br>75 superwash merino/15 cashmere/10 silk<br>x<br>100 superwash merino</p>
+          </div>
+    </div>
+</div>
+
+</body>
+
+</html>
